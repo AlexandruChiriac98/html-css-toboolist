@@ -9,7 +9,62 @@ header{
 }
 main{
     background-color: rgb(230, 230, 230);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-bottom: 10px;
+}
+#b1{
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(59, 182, 212);
+    color: white;
+}
+#b2{
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: lightgrey;
 }
 #titolo{
-    display: inline-block;   
+    display: inline-block;
+    vertical-align: top;   
+}
+#contenitore{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+}
+#sopra{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 10px 40px;
+}
+#lista{
+    padding: 10px 40px;
+}
+.spazio{
+    padding-bottom: 20px;
+}
+.icona{
+    border: 2px solid;
+    border-radius: 50%;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    
+}
+.rosso{
+    color: red;
+}
+.verde{
+    color: green;
 }
