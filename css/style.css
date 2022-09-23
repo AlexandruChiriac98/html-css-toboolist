@@ -15,8 +15,11 @@ main{
 ul{
     list-style: none;
 }
+h3{
+    padding-bottom: 5px;
+}
 li{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 #b1{
     padding: 6px 12px;
@@ -59,8 +62,37 @@ li{
     width: 22px;
     height: 22px;
     text-align: center;
-    line-height: 22px;
-    
+    line-height: 22px; 
+}
+.testo {
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+.arancione{
+    background-color: orange;
+    border-radius: 20px;
+}
+.rosa{
+    background-color:hotpink;
+    border-radius: 20px;
+}
+.verde2{
+    background-color: rgb(113, 216, 10);
+    border-radius: 20px;
+}
+.verde1{
+    background-color: darkseagreen;
+    border-radius: 20px;
+}
+.viola{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.celeste{
+    background-color:  rgb(59, 182, 212) ;
+    border-radius: 20px;
 }
 .rosso{
     color: red;
